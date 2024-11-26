@@ -20,3 +20,7 @@ ChrootDirectory %h
 
 # Enable this for more logs
 #LogLevel VERBOSE
+
+#Allow public key authentication
+PubkeyAuthentication yes
+AuthorizedKeysFile %h/.ssh/authorized_keys
